@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="hero__nav">
+      <div class="container">
+        <figure class="nav__figure">
+          <img class="nav__logo" src="./img/logo-personal.webp" alt="logo-personal">
+        </figure>
+        <div class="nav__hamburguer">
+          <img class="nav__button" src="./img/icon-hamburger.png" alt="menu hamburguesa">
+        </div>
+        <div class="nav__list">
+          <ul class="nav__menu">
+            <li class="menu__item"><a class="nav__link nav__link--active" href="#inicio">Inicio</a></li>
+            <li class="menu__item"><a class="nav__link" href="#quiensoy">¿Quién soy?</a></li>
+            <li class="menu__item"><a  class="nav__link" href="#servicios">Servicios</a></li>
+            <li class="menu__item"><a class="nav__link" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="hero__main" id="inicio">
+      <div class="hero__container section__container">
+        <figure class="main__figure">
+          <img class="main__img" src="./img/ilustracion-personal.webp" alt="ilustracion">
+        </figure>
+        <h2 class="hero__name">JACKELINE SANDOVAL</h2>
+        <p class="hero__description">Edición Digital - Redes Sociales - Creación de marca - Animaciones Audiovisuales - Fotografía y más.</p>
+        <a target="_blank" href="https://w.app/Jackydisng" class="hero__cta">DESEO UNA ASESORÍA</a>
+      </div>
+    </section>
+  </header>
+  <section class="section__about" id="quiensoy">
+    <div class="section__container about__container">
+      <h1 class="about__title">DISEÑADOR PROFESIONAL</h1>
+      <p class="about__subtitle">EL DISEÑO WEB, EL MARKETING DIGITAL, Y LAS REDES SOCIALES HOY EN DÍA HAN COBRADO GRAN IMPORTANCIA EN TODO ÁMBITO PROFESIONAL, NEGOCIOS, LAS EMPRESAS NECESITAN PRESENCIA EN LA WEB...</p>
+      <figure class="about__figure">
+        <img src="./img/foto-personal.webp" alt="Foto personal" class="about__img">
+      </figure>
+      <h2 class="hero__name">JACKELINE SANDOVAL</h2>
+      <p class="about__description">
+        HOLA, MI NOMBRE ES JACKELINE SANDOVAL, TENGO 21 AÑOS Y TRES AÑOS DE EXPERIENCIA EN DISEÑO GRÁFICO, DISEÑO WEB, MULTIMEDIA, REDES SOCIALES Y MARKETING ONLINE.
+      </p>
+    </div>
+    <div class="section__container habilities__container">
+      <h2 class="hero__name bold">HABILIDADES</h2>
+      <div class="statics__container">
+        <article class="softwares__container">
+          <ul class="softwares__list">
+            <li class="software__item"><img class="software__img" src="./img/icono-1.webp" alt="Adobe Ilustrator"><img class="software__progress" src="./img/barra-1.webp" alt="barra porcentaje"><span>80%</span></li>
+            <li class="software__item"><img class="software__img" src="./img/icono-2.png" alt="Photoshop"><img class="software__progress" src="./img/barra-2.webp" alt="barra porcentaje"><span>68%</span></li>
+            <li class="software__item"><img class="software__img" src="./img/icono-3.png" alt="ID"><img class="software__progress" src="./img/barra-3.webp" alt="barra porcentaje"><span>70%</span></li>
+            <li class="software__item"><img class="software__img" src="./img/icono-4.png" alt="after effects"><img class="software__progress" src="./img/barra-4.webp" alt="barra porcentaje"><span>50%</span></li>
+          </ul>
+        </article>
+        <figure class="statics__figure">
+          <img src="./img/ipad.webp" alt="ipad" class="statics__img">
+          <img class="statics__vectorD" src="./img/vectorD.webp" alt="VectorD">
+        </figure>
+      </div>
+    </div>
+  </section>
+  <section class="section__services section__container" id="servicios">
+    <div class="services__container">
+      <h2 class="hero__name">SERVICIOS</h2>
+      <div class="services">
+        <div class="service__card">
+          <figure class="service__figure">
+            <img src="./img/PlayaPilsen.webp" alt="Animacion" class="service__img">
+          </figure>
+          <span class="service__title">ANIMACIÓN</span>
+        </div>
+        <div class="service__card">
+          <figure class="service__figure">
+            <img src="./img/Carlos1.jpg" alt="Fotografia" class="service__img">
+          </figure>
+          <span class="service__title">FOTOGRAFÍA</span>
+        </div>
+        <div class="service__card">
+          <figure class="service__figure">
+            <img src="./img/popeyes.jpg" alt="popeyes" class="service__img">
+          </figure>
+          <span class="service__title">MARKETING</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section__contact" id="contacto">
+    <div class="contact__media">
+      <h2 class="hero__name">CONTACTO</h2>
+      <figure class="contact__figure">
+        <img src="./img/ilustracion-personal.webp" alt="Ilustración" class="contact__img">
+        <h2 class="hero__name">JACKELINE SANDOVAL</h2>
+      </figure>
+      <form class="form">
+        <section class="form-container">
+          <article class="form-group">
+            <input type="text" id="nombe" class="form-input" placeholder=" "/>
+            <label for="nombe" class="form-label">Nombre:</label>
+            <span class="form-line"></span>
+          </article>
+          <article class="form-group">
+            <input type="text" id="provincia" class="form-input" placeholder=" "/>
+            <label for="provincia" class="form-label">Provincia:</label>
+            <span class="form-line"></span>
+          </article>
+          <article class="form-group">
+            <input type="number" id="numero" class="form-input" placeholder=" "/>
+            <label for="numero" class="form-label">Teléfono:</label>
+            <span class="form-line"></span>
+          </article>
+          <article class="form-group">
+            <textarea class="form-input" name="comments" cols="50" rows="10" placeholder=" "></textarea>
+            <label for="comments" class="form-label">Mensaje:</label>
+            <span class="form-line"></span>
+          </article>
+          <input type="submit" value="Enviar" class="form-submit">
+        </section>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <section class="section__footer">
+      <div class="footer__activities">
+        <h3 class="footer__title">¿QUÉ HACEMOS?</h3>
+        <ul class="footer__items">
+          <li class="footer__item">Edición Digital</li>
+          <li class="footer__item">Redes Sociales</li>
+          <li class="footer__item">Creación de marca</li>
+          <li class="footer__item">Animaciones</li>
+          <li class="footer__item">Audiovisuales</li>
+          <li class="footer__item">Fotografía y más</li>
+        </ul>
+      </div>
+      <div class="social__media">
+        <h3 class="social__title">SÍGUEME EN MIS REDES:</h3>
+        <div class="social__content">
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100091842648392" class="social__link">
+            <img src="./img/facebook.png" alt="Facebook">
+          </a>
+          <a target="_blank" href="https://instagram.com/jakeline_sf" class="social__link">
+            <img src="./img/instagram.png" alt="Instagram">
+          </a>
+          <a target="_blank" href="https://pe.linkedin.com/in/estrella-fustamante-8462b622a" class="social__link">
+            <img src="./img/linkeden.png" alt="Linkedin">
+          </a>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <div class="whatsapp">
+    <a class="whatsapp__button" target="_blank" href="https://w.app/Jackydisng">
+      <img class="whatsapp__img" src="./img/whatsapp.png" alt="Whatsapp">
+    </a>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
